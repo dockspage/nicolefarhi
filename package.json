@@ -5,5 +5,13 @@
   "main": "build/index.js",
   "repository": "git@github.com:dockspage/nicolefarhi.git",
   "author": "Anton <anton@adc.sh>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/bin",
+    "b": "alamode src -o build -s"
+  },
+  "devDependencies": {
+    "alamode": "1.6.0",
+    "rqt": "3.0.1"
+  }
 }
